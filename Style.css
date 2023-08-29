@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right , green,#40B8C4, #B6AB15);
+    background-size: cover;
+    background-position: center;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.3); /* Glass effect using rgba */
+    backdrop-filter: blur(10px); /* Add blur to the background */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.glass-content {
+    background-color: rgba(255, 255, 255, 0.01); /* Transparent background for content */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.glass-content h1 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.glass-content p {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+form button {
+    background-color: #4DFF00;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #012391, #19e691);
+}
+
+
+
+
